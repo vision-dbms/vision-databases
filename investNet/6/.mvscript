@@ -1,0 +1,4 @@
+mv MSS .dsegs
+mv 0 .dsegs
+mv 1 .dsegs
+mv 2 .dsegs
