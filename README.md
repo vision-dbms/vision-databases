@@ -13,16 +13,16 @@ _-n path-to-database-NDF_ option of either _batchvision_, Vision's command line 
 _vision_, Vision's text based graphical  editor.  For example, if you downloaded the _investNet_
 database into the _mydatabases_ subdirectory of your home directory, you can type:
 
-    _batchvision -n ~/mydatabases/investNet/NDF_
+    batchvision -n ~/mydatabases/investNet/NDF
 
 or:
 
-    _vision -n ~/mydatabases/investNet/NDF_
+    vision -n ~/mydatabases/investNet/NDF
 
 You can also set the _NDFPathName_ environment variable to point to the location of your database's _NDF_ file:
 
-    _export NDFPathName=~/mydatabases/investNet/NDF_
+    export NDFPathName=~/mydatabases/investNet/NDF
 
 so that you do not have to pass the _-n_ option every time you want to use your database:
 
-    _vision_
+    vision
