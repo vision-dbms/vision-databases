@@ -1,17 +1,18 @@
 # vision-databases
-A repository of starter databases for your Vision system.
+You have selected the __investNet__ database.
 
-To download a database, select a database (for example _investNet_) from the __Branch__
-dropdown in the upper left corner of this repository's home page, choose __Download ZIP__
-from __Clone or Download__, and unpack the downloaded ZIP file into a directory of your choosing.
+---
 
-If you prefer, you can also use _git_ directly to clone this repository and check out the
-branch whose name matches the database you want.
+To download this database now, choose __Download ZIP__ from the __Clone or Download__ dropdown
+above and unpack the downloaded ZIP file into a directory of your choosing.
 
-Once the database you selected is in a directory on your machine, open it using the
-_-n path-to-database-NDF_ option of either _batchvision_, Vision's command line interpreter, or
-_vision_, Vision's text based graphical  editor.  For example, if you downloaded the _investNet_
-database into the _mydatabases_ subdirectory of your home directory, you can type:
+If you prefer, you can also use _git_ directly to clone this repository and check out its
+_investNet_ branch.
+
+Once the _investNet_ database is on your computer, open it using the _-n_ option of either
+_batchvision_, Vision's command line interpreter, or _vision_, Vision's text based graphical
+editor.  If, for example, you downloaded the _investNet_ database into the _mydatabases_
+subdirectory of your home directory, run:
 
     batchvision -n ~/mydatabases/investNet/NDF
 
@@ -19,10 +20,11 @@ or:
 
     vision -n ~/mydatabases/investNet/NDF
 
-You can also set the _NDFPathName_ environment variable to point to the location of your database's _NDF_ file:
+You can also set the _NDFPathName_ environment variable to point to the location of _investNet_'s
+_NDF_ file:
 
     export NDFPathName=~/mydatabases/investNet/NDF
 
-so that you do not have to pass the _-n_ option every time you want to use your database:
+so that you do not have to pass the _-n_ option every time you want to open this database:
 
     vision
